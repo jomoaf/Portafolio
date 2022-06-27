@@ -1,0 +1,85 @@
+.experience{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+}
+
+.experience__section__title{
+    color: var(--color-text2);
+    font-size: 22px;
+    text-align: center;
+}
+
+.experience__box{
+    padding-bottom: 3rem;
+}
+
+.experience__img{
+    width: 100%;
+}
+
+.experience__title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.experience__text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.experience__description{
+    height: 2rem;
+}
+
+.experiencia__botao--repo{
+    background: none;
+    color: var(--color-textobtn);
+    font-weight: 600;
+    font-size: 14px;
+    height: 100%;
+    border-color: var(--color-textobtn);
+    border-style: solid;
+}
+
+.experience__botao--demo{
+    background: var(--color-textobtn);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    height: 100%;
+    border-color: var(--color-textobtn);
+    border-style: solid;
+}
+
+@media screen and (min-width: 1024px) {
+    .experience{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    .experience__section__title{
+        font-size: 32px;
+    }
+
+    .experience__box{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .experience__img{
+        width: 70%;
+    }
+
+    .experience__info{
+        padding-left: 1rem;
+    }
+
+    .experience__info-container{
+        padding-right: 1rem;
+        order: -1;
+
+    }
+    
+}
